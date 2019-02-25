@@ -1,0 +1,1 @@
+Fail: V009 License was not entered. Please enter a valid PVS-Studio license or request a trial license at https://www.viva64.com/en/pvs-studio-download/. []

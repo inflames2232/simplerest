@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: product-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/products_db
+    username: postgres
+    password: westwest223
+  liquibase:
+    url: jdbc:postgresql://localhost:5432/products_db
+    user: postgres
+    password: westwest223
+    enabled: true
+  jooq:
+    sql-dialect: POSTGRES
+
+info:
+  app:
+    name: Products
+    version: 1.0.0
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
